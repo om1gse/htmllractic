@@ -19,16 +19,6 @@ body {
   }
 }
 
-.people :hover {
-  border-radius: 25%;
-  transition: all 1s;
-  transform: scale(1.2);
-}
-
-.people :not(:hover) {
-  transition: all 1s;
-}
-
 .people__person {
   text-align: center;
   transition: all 1s;
@@ -57,5 +47,15 @@ body {
   position: absolute;
   top: 37%;
   right: 10px;
+}
+
+.people .people__person:hover {
+  border-radius: 25%;
+  transition: all 1s;
+  transform: scale(1.2);
+}
+
+.people .people__person:not(:hover) {
+  transition: all 1s;
 }
 /*# sourceMappingURL=index.b1276d39.css.map */
